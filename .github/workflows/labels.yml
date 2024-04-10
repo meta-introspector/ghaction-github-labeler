@@ -22,9 +22,9 @@ jobs:
     steps:
       -
         name: Checkout
-        uses: meta-introspector/checkout@v4
+        uses: meta-introspector/checkout@main
       -
         name: Run Labeler
-        uses: meta-introspector/ghaction-github-labeler@v5
+        uses: meta-introspector/ghaction-github-labeler@main
         with:
           dry-run: ${{ github.event_name == 'pull_request' }}
