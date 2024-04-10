@@ -6,13 +6,13 @@ Contributions to this project are [released](https://help.github.com/articles/gi
 
 ## Submitting a pull request
 
-1. [Fork](https://github.com/crazy-max/ghaction-github-labeler/fork) and clone the repository
+1. [Fork](https://github.com/meta-introspector/ghaction-github-labeler/fork) and clone the repository
 2. Configure and install the dependencies locally: `yarn install`
 4. Create a new branch: `git checkout -b my-branch-name`
 5. Make your changes
 6. Format code and build javascript artifacts: `docker buildx bake pre-checkin`
 7. Validate all code has correctly formatted and built: `docker buildx bake validate`
-8. Push to your fork and [submit a pull request](https://github.com/crazy-max/ghaction-github-labeler/compare)
+8. Push to your fork and [submit a pull request](https://github.com/meta-introspector/ghaction-github-labeler/compare)
 9. Pat your self on the back and wait for your pull request to be reviewed and merged.
 
 Here are a few things you can do that will increase the likelihood of your pull request being accepted:

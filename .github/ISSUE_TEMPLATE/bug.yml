@@ -11,7 +11,7 @@ body:
       label: Support guidelines
       description: Please read the support guidelines before proceeding.
       options:
-        - label: I've read the [support guidelines](https://github.com/crazy-max/ghaction-github-labeler/blob/master/.github/SUPPORT.md)
+        - label: I've read the [support guidelines](https://github.com/meta-introspector/ghaction-github-labeler/blob/master/.github/SUPPORT.md)
           required: true
 
   - type: checkboxes
